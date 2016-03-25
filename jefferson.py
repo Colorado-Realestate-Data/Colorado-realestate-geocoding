@@ -1,7 +1,7 @@
 import requests
 import json
 
-def geocode(sch, SingleLineInput="", outFields="Match_addr", outSR="4326"):
+def jefferson_geocode(sch, SingleLineInput="", outFields="Match_addr", outSR="4326"):
     """
     Geocode Jefferson county addresses
     Uses http://jeffco.us/ArcGIS/rest/services/sch/GeocodeServer/findAddressCandidates
